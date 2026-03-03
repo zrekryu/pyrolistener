@@ -27,14 +27,14 @@ Register listeners once:
 ```python
 from pyrogram import Client
 from pyrolistener import ListenRegistry
-from pyrolistener.handlers import MessageListener, CallbackQueryListener
+from pyrolistener.handlers import MessageListenHandler, CallbackQueryListenHandler
 
 app = Client("account")
 
 listen_registry = ListenRegistry()
 
-app.add_handler(MessageListener(listen_registry))
-app.add_handler(CallbackQueryListener(listen_registry))
+app.add_handler(MessageListenHandler(listen_registry))
+app.add_handler(CallbackQueryListenHandler(listen_registry))
 ```
 
 ---
