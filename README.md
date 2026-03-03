@@ -9,7 +9,7 @@ PyroListener lets you wait for Telegram updates directly inside your update hand
 ## Installation
 
 ```bash
-pip install pyrolistener
+pip install git+https://github.com/Zrekryu/pyrolistener.git
 ```
 
 ---
