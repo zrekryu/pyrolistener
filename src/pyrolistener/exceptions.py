@@ -1,0 +1,2 @@
+class ListenTimeoutError(TimeoutError):
+    pass
