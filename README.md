@@ -9,10 +9,16 @@ PyroListener lets you wait for Telegram updates directly inside your update hand
 ## Installation
 
 ```bash
-pip install git+https://github.com/Zrekryu/pyrolistener.git
+pip install pyrolistener
 ```
 
 ---
+
+
+## Community
+
+- 📢 News & Updates: [link](https://t.me/PyroListener)
+- 💬 Discussion & Support: [link](https://t.me/PyroListenerChat)
 
 ## Setup
 
@@ -67,8 +73,8 @@ async def ask_age(client, message):
 3. Awaiting code resumes.
 
 ```
-Update → Listener → Match → await continues
+Update → Listener → Match → Response → await listen() resumes
 ```
 
-# License 
+## License 
 MIT
