@@ -1,6 +1,6 @@
 # PyroListener
 
-Inline update listening for Pyrogram.
+Inline update listener for Pyrogram.
 
 PyroListener lets you wait for Telegram updates directly inside your update handler's callback.
 
