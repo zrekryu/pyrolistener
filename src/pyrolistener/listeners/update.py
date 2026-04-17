@@ -11,7 +11,11 @@ from ..responses import (
 )
 
 
-async def _listen(request, remover, timeout):
+async def _listen(
+    request,
+    remover,
+    timeout: int | float | None
+):
     try:
         return await asyncio.wait_for(request, timeout)
     except asyncio.TimeoutError:
